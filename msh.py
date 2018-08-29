@@ -37,7 +37,7 @@ def show_tables(args):
                 print(q)
 def main():
     args=prase_args()
-    print("args",args)
+    # print("args",args)
     show_tables(args)
 if __name__ == '__main__':
     main()
